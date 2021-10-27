@@ -26,6 +26,7 @@ Delegates (built-in): bzlib cairo djvu fftw fontconfig fpx freetype gslib gvc jb
 
 I'm using Cygwin and MinTTY to run all these commands on Windows.
 But just for testing, I ran the GS command on a Linux Virtual Machine (linuxmint-20.2-mate-64bit).
+
 sx@sx-vm:~/Documents$ gs --version
 9.50
 
