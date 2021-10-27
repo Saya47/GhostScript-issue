@@ -12,10 +12,12 @@ But as you can see, it somehow rotates my PDF!! I don't understand why, I've tri
 
 My GS version:
 $ gs --version
+
 9.53.3
 
 My IM version:
 $ convert --version
+
 Version: ImageMagick 7.0.10-27 Q16 x86_64 2021-02-07 https://imagemagick.org
 Copyright: © 1999-2020 ImageMagick Studio LLC
 License: https://imagemagick.org/script/license.php
