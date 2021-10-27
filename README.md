@@ -1,9 +1,9 @@
 # GhostScript-issue
 I just make a sample image using paint.exe on Windows.
 Then I convert it to a PDF with Imagemagick:
-`convert input.png input.pdf`
+```convert input.png input.pdf```
 Then I try to resize the PDF using Ghostscript:
-`gs -o output.pdf -sDEVICE=pdfwrite -sPAPERSIZE=a4 -dFIXEDMEDIA -dPDFFitPage -dCompatibilityLevel=1.4 input.pdf`
+```gs -o output.pdf -sDEVICE=pdfwrite -sPAPERSIZE=a4 -dFIXEDMEDIA -dPDFFitPage -dCompatibilityLevel=1.4 input.pdf```
 But as you can see, it somehow rotates my PDF!! I don't understand why, I've tried this on a lot of PDF's and PDF books as well, they all rotate.
 
 My GS version:
