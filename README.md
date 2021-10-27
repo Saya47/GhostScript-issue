@@ -25,10 +25,10 @@ Features: Cipher DPC HDRI OpenMP(4.5)
 Delegates (built-in): bzlib cairo djvu fftw fontconfig fpx freetype gslib gvc jbig jng jp2 jpeg lcms lqr lzma pangocairo png ps raqm raw rsvg tiff webp x xml zlib
 
 I'm using Cygwin and MinTTY to run all these commands on Windows.
-But just for testing, I ran the GS command on a Linux Virtual Machine (linuxmint-20.2-mate-64bit).
+
+But just for testing, I ran the GS command on a Linux Virtual Machine (linuxmint-20.2-mate-64bit). And the PDF was still rotated.
 
 sx@sx-vm:~/Documents$ gs --version
 9.50
 
-And the PDF was still rotated.
 Sometimes the PDF's rotate 90 degrees and sometimes they rotate 180 degrees!!
